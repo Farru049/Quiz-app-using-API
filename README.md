@@ -71,7 +71,7 @@ A modern, responsive quiz application built with React that features real-time s
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/Farru049/Quiz-app-using-API
 ```
 
 2. Install dependencies:
