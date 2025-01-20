@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Timer } from './Timer';
-import './quiz.css'
+import './QuizPage.css'
 export function QuizPage({ questions, onQuizEnd }) {
   const [currentAnswers, setCurrentAnswers] = useState({});
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
