@@ -1,0 +1,81 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.error-container {
+  background-color: #ffebee;
+  border: 1px solid #ffcdd2;
+  color: #c62828;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.retry-button {
+  background-color: #ef5350;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.retry-button:hover {
+  background-color: #e53935;
+}
+
+.loading-container {
+  text-align: center;
+  padding: 32px;
+}
+
+.loading-container p {
+  font-size: 18px;
+  color: #666;
+}
+
+.quiz-end-container {
+  margin-top: 20px;
+}
+
+.restart-container {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.restart-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.restart-button:hover {
+  background-color: #1976d2;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Add some basic responsive design */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 10px;
+  }
+  
+  .restart-button,
+  .retry-button {
+    width: 100%;
+  }
+}
